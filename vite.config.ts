@@ -1,0 +1,4 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { VitePWA } from 'vite-plugin-pwa';
+export default defineConfig({base:process.env.GITHUB_ACTIONS?'/fitjourney/':'/',plugins:[react(),VitePWA({registerType:'prompt',includeAssets:['icons/apple-touch-icon.svg'],manifest:{name:'FitJourney',short_name:'FitJourney',description:'Mon corps, mon rythme, ma progression.',theme_color:'#6F3045',background_color:'#FFF8F4',display:'standalone',start_url:'/fitjourney/',scope:'/fitjourney/',icons:[{src:'icons/icon-192.svg',sizes:'192x192',type:'image/svg+xml',purpose:'any maskable'},{src:'icons/icon-512.svg',sizes:'512x512',type:'image/svg+xml',purpose:'any maskable'}]},workbox:{navigateFallback:'index.html',globPatterns:['**/*.{js,css,html,svg,png,woff2}'],cleanupOutdatedCaches:true}})]});
