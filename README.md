@@ -5,9 +5,9 @@ Application de fitness personnelle en français : **« Mon corps, mon rythme, ma
 ## Lancer sur ordinateur
 
 1. Installer Node.js 20 ou plus récent.
-2. Dans ce dossier, lancer `npm install`.
+2. Dans ce dossier, lancer `pnpm install`.
 3. Lancer `npm run dev` et ouvrir l’adresse locale affichée par Vite.
-4. Créer un build de production avec `npm run build`; le résultat est généré dans `dist/`.
+4. Créer un build de production avec `pnpm build`; le résultat est généré dans `dist/`.
 
 ## Publier gratuitement sur GitHub Pages
 
@@ -42,7 +42,7 @@ Le dépôt doit rester public pour l’offre GitHub Free Pages. N’y ajoute auc
 
 ## Vérifications
 
-`npm test` exécute les tests unitaires des calculs de semaine, des phases, du début de semaine, de la sélection des jours et du format du chronomètre. `npm run build` vérifie les types stricts et construit les fichiers de production.
+`pnpm test` exécute les tests unitaires des calculs de semaine, des phases, du début de semaine, de la sélection des jours et du format du chronomètre. `pnpm build` vérifie les types stricts et construit les fichiers de production.
 
 Une vérification sur appareil réel reste à faire séparément :
 
