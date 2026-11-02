@@ -4,7 +4,7 @@ Application de fitness personnelle en français : **« Mon corps, mon rythme, ma
 
 ## Lancer sur ordinateur
 
-1. Installer Node.js 20 ou plus récent.
+1. Installer Node.js 22 ou plus récent.
 2. Dans ce dossier, lancer `pnpm install`.
 3. Lancer `npm run dev` et ouvrir l’adresse locale affichée par Vite.
 4. Créer un build de production avec `pnpm build`; le résultat est généré dans `dist/`.
