@@ -11,7 +11,7 @@ Application de fitness personnelle en français : **« Mon corps, mon rythme, ma
 
 ## Publier gratuitement sur GitHub Pages
 
-Le dépôt doit contenir ce dossier à sa racine et s’appeler `fitjourney` (la base de chemin est configurée pour le projet GitHub Pages `/<nom-du-dépôt>/`). Le workflow `.github/workflows/deploy.yml` construit l’application et publie `dist/` à chaque mise à jour de la branche `main`. Dans **Settings → Pages**, sélectionner **GitHub Actions** comme source. GitHub Free propose l’hébergement Pages sans coût pour un dépôt public. La publication nécessite un compte GitHub et une connexion Internet pour le déploiement initial.
+Le dépôt doit contenir ce dossier à sa racine et s’appeler `fitJourney` (la base de chemin est configurée pour le projet GitHub Pages `/<nom-du-dépôt>/`). Le workflow `.github/workflows/deploy.yml` construit l’application et publie `dist/` à chaque mise à jour de la branche `main`. Dans **Settings → Pages**, sélectionner **GitHub Actions** comme source. GitHub Free propose l’hébergement Pages sans coût pour un dépôt public. La publication nécessite un compte GitHub et une connexion Internet pour le déploiement initial.
 
 Le dépôt doit rester public pour l’offre GitHub Free Pages. N’y ajoute aucune donnée privée : les profils, mesures et journaux ne sont créés qu’après ouverture de l’application et ne sont pas intégrés au code.
 
